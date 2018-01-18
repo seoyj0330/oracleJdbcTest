@@ -2,7 +2,7 @@ package pro04;
 
 public class MemberVo {
 	
-	//MemberVo ÀÛ¼º
+	//MemberVo ï¿½Û¼ï¿½
 	private int id;
 	private String name;
 	private String email;
@@ -54,8 +54,7 @@ public class MemberVo {
 
 	@Override
 	public String toString() {
-		return "MemberVo [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + ", gender="
-				+ gender + "]";
+		return id + " | " + name + " | " + email + " | " + password + " | " + gender;
 	}
 
 }
